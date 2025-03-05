@@ -1,0 +1,1350 @@
+[	
+	
+	//Dwarven Kingdom
+	{
+		"name": "Orichalcum Golem",
+		"uniqueTo": "Dwarven Kingdom",
+		"replaces": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 22,
+		"cost": 120,
+		"requiredResource": "Iron",
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"promotions": ["Exposed Core"],
+		"uniques": ["Construct"],
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A construct made of Orichalcum. Its sturdiness exceeds that of a Diamond. This makes the golem a formidable foe in the battlefield."},
+        ]
+	},
+	
+	//Drow Village
+	{
+		"name": "Bladedancer",
+		"uniqueTo": "Drow Village",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"promotions": ["Elusive"],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Notorious for its agility and nimble movements, Bladedancer is an elusive target to hit. They move like a wind."},
+        ]
+	},
+	
+	//Orc Horde
+	{
+		"name": "Orc Brute",
+		"uniqueTo": "Orc Horde",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 90,
+		"requiredTech": "Iron Working",
+		"requiredResource": "Iron",
+		"upgradesTo": "Longswordsman",
+	//	"uniques": ["Can build [Improved Barricade] improvements on tiles", "Can build [Fort] improvements on tiles"],
+		"hurryCostModifier": 20,
+		"promotions": ["[Orc Brute] ability", "Crafty"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Crude yet effective, a menace to those who dare to oppose. Swings hammer like no other. Prepare to be brutalized."},
+        ]
+	},
+	
+	//Uldra
+	{
+		"name": "Frost Giant",
+		"replaces": "Spearman",
+		"uniqueTo": "Uldra",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 13,
+		"cost": 56,
+		"requiredTech": "Trapping",
+		"upgradesTo": "Longswordsman",
+		"uniques": ["Comment [Unlocked at [Trapping] vs [Bronze Working]]", "[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["Snowman", "Winter's Grasp"],
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A giant tamed and trained to be a tool of warfare. The Uldras capture and trains these natural predator easily."},
+        ]
+	},
+	
+	//Merfolk Council
+	{
+		"name": "Naga",
+		"uniqueTo": "Merfolk Council",
+		"replaces": "Galleass",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 16,
+		"range": 2,
+		"cost": 90,
+		"requiredTech": "Compass",
+		"promotions": ["Floating City Builder"],
+		"upgradesTo": "Frigate",
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "A giant creature that lurks the deep sea. Developed a mutual symbiotic relationship with the Merfolks, these monster of the sea will help them defend its territory. Or conquer others."},
+        ]
+	},
+	
+	//Beastmen Empire
+	{
+		"name": "Wyvern Rider",
+		"uniqueTo": "Beastmen Empire",
+		"replaces": "Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 13,
+		"rangedStrength": 13,
+		"range": 1,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Wings"],
+		"hurryCostModifier": 20,
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Beastmen Empire's aerial force consisted of Wyvern Rider. A dragon-like creature tamed and ridden, proved effective for war."},
+        ]
+	},
+	
+	//Elven Kingdom
+	{
+		"name": "Elven Ranger",
+		"uniqueTo": "Elven Kingdom",
+		"replaces": "Composite Bowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 11,
+		"rangedStrength": 11,
+		"cost": 75,
+		"promotions": ["Woodsman"],
+		"requiredTech": "Construction",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Elves are famous for their archery. Especially the Ranger. Strong at both swordmanship and archery, their skills are invaluable at the battlefield."},
+        ]
+	},
+	
+	//Children of Deep Dweller
+	{
+		"name": "Deep One",
+		"uniqueTo": "Children of Deep Dweller",
+		"replaces": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 48,
+		"upgradesTo": "Swordsman",
+		"uniques" : ["[10]% Strength <when fighting in [Coastal] tiles>", "[10]% Strength <when fighting in [Fresh Water] tiles>", "Only available <in cities with a [Old God Monument]>"],
+		"promotions": ["Water Creature"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Horror creature from the abysmal sea. Surfaced from the prayer and calling of the Cultist."},
+        ]
+	},
+	
+	//Dragonborn Union
+	{
+		"name": "Dragon Knight",
+		"uniqueTo": "Dragonborn Union",
+		"replaces": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 22,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Rifleman",
+	//	"uniques": ["Can pass through impassable tiles", "Ignores terrain cost"],
+		"promotions": ["Executioner"],
+		"requiredResource": "Iron",
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Dragonoid which has been going through rigorous training will declared a knight."},
+        ]
+	},
+	{
+		"name": "Gryphon",
+		"uniqueTo": "Dragonborn Union",
+		"replaces": "Horseman",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 13,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Wings", "Sturdy"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "A hybrid monster of Eagle and Lion, tamed and trained to be a valuable assets on the battlefield."},
+        ]
+	},
+	
+	//Vigilo Order
+	
+	//Argonautian States
+	{
+		"name": "Peltast",
+		"replaces": "Spearman",
+		"uniqueTo": "Argonautian States",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"rangedStrength": 11,
+		"range": 1,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["Agoge"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Trained since children, with the States' Agoge policy, Peltast is the main infantry for Argonautian States."},
+        ]
+	},
+	{
+		"name": "Sarissa Hippeus",
+		"unitType": "Mounted",
+		"replaces": "Horseman",
+		"uniqueTo": "Argonautian States",
+		"movement": 4,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+		"promotions": ["Agoge", "Impetus"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "Trained since Children with the State's Agoge policy, Sarissa Hippeus charge the enemy with their horse and spear with great courage."},
+        ]
+	},
+		
+			//Heroes' Spells list
+	
+	//Pyre Clan
+	{
+		"name": "Pitlord",
+		"replaces": "Knight",
+		"uniqueTo": "Pyre Clan",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"promotions": ["Mark of Bane"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+		"civilopediaText": [
+			{"text": "A creature from hell, the guardian of hell, a creature of four-legged demon with huge body. A menace to society."},
+        ]
+	},
+	
+	//High Elf Concordat
+	{
+		"name": "Zealot",
+		"replaces": "Swordsman",
+		"uniqueTo": "High Elf Concordat",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"requiredResource": "Iron",
+	//	"uniques": ["[This Unit] gains the [Second Wind Active] status for [999] turn(s) <hidden from users>"],
+		"promotions": ["Zealotry", "Second Wind"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+		"civilopediaText": [
+			{"text": "A devout follower of the High Elven doctrine, a Zealot will charge through the battlefield with great vigor."},
+        ]
+	},
+	
+	//Necrontia
+	{
+		"name": "Lich",
+		"unitType": "Archery",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Necrontia",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 18,
+		"range": 2,
+		"cost": 120,
+		"requiredTech": "Theology",
+		"upgradesTo": "Gatling Gun",
+		"uniques": ["Comment [Unlocked at [Theology] vs [Machinery]]"],
+		"promotions": ["[Lich] ability", "Ice Attack", "Undead"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "A high-ranking undead, an undead of great intelligence, master of necromancy, a Lich will ressurect its killed enemies to serve them."},
+        ]
+	},
+	
+	//Sacred Sun Theocracy
+	{
+		"name": "Devotee",
+		"replaces": "Swordsman",
+		"uniqueTo": "Sacred Sun Theocracy",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"requiredResource": "Iron",
+	//	"uniques": ["Religious Unit"],
+		"promotions": ["Protector of Realm", "Divine Watch", "Devoted Learner"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "A fanatic of the religion, will defend its country and religion to death."},
+        ]
+	},
+	
+	//Nature's Keeper
+	
+	//Clockwerk Church
+	{
+		"name": "Mechanite",
+		"uniqueTo": "Clockwerk Church",
+		"replaces": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"promotions": ["Overdrive Protocol", "Regenerative Bio-Steel"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{"text": "A human with far too many clockwerk attached, a machine-infested human. Willingly modify their body so they can be closer to the Broken God. A human far beyond recognition."},
+        ]
+	},	
+	
+	//Inquisitorial Illuminate
+	{
+		"name": "Templar",
+		"replaces": "Swordsman",
+		"uniqueTo": "Inquisitorial Illuminate",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"requiredResource": "Iron",
+		"uniques": ["Can remove other religions from cities <once>", "Takes your religion over the one in their birth city"],
+		"promotions": ["Divine Watch"],
+		"religiousStrength": 1000,
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Devout and fanatic follower of the religion. Specialize both in religion and war. They also fill the role of Inquisitor while being able to go to war."},
+        ]
+	},
+	
+	//Lizardmen Tribes
+	{
+		"name": "Katak",
+		"uniqueTo": "Lizardmen Tribes",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"promotions": ["Amphibious", "Amphibious II"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "A special unit of the Lizardmen Tribes. Adept at amphibious terrain."},
+        ]
+	},
+	
+	//Centaur Tribes
+	{
+		"name": "Centaur Warchief",
+		"uniqueTo": "Centaur Tribes",
+		"replaces": "Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"promotions": ["Stampede", "Sturdy"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "From the many tribes of Centaur, their Warchief status is earned by proving one's strength."},
+        ]
+	},
+	
+	//Shinso
+	{
+		"name": "Onmyouji",
+		"uniqueTo": "Shinso",
+		"replaces": "Composite Bowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"promotions": ["Accuracy I", "Withering Curse"],
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "A practioner of the art Onmyodo, a master of yin yang."},
+        ]
+	},
+	{
+		"name": "Tsukaima",
+		"uniqueTo": "Shinso",
+		"replaces": "Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+		"promotions": ["Elusive"],
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "A familiar. A creature summoned by the Onmyoji to serve."},
+        ]
+	},
+	//Gnome Alliance
+	{
+		"name": "Gnomish Flyer",
+		"uniqueTo": "Gnome Alliance",
+		"replaces": "Great War Bomber",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 40,
+		"rangedStrength": 40,
+		"range": 6,
+		"cost": 325,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"upgradesTo": "Bomber",
+		"uniques": ["Comment [Consumes 1 [Coal]]", "Comment [Unlocked at [Steam Power] vs [Flight]]"],
+		"attackSound": "bombing",
+		"civilopediaText": [
+			{"text": "Earliest record of flying vehicle is achieved by the Gnomes. Using steam power on its engine, they require Coal to be used."},
+        ]
+	},
+	
+	//Harpies Tribe
+	{
+		"name": "Stormwing",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Harpies Tribe",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"promotions": ["Indirect Fire", "Galestorm Leap"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "An elite group of the Harpies, they are able to fly far and high to aim their target with magic from a height advantage anywhere."},
+        ]
+	},
+	
+	//Gaia Preserver
+	{
+		"name": "Grovetender",
+		"replaces": "Pikeman",
+		"uniqueTo": "Gaia Preserver",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Lancer",
+		"attackSound": "metalhit",
+		"promotions": ["Woodsman", "Chameleon Cloak"],
+		"civilopediaText": [
+			{"text": "The protector of Gaia. Serves both as protector and attendant of the woods. Grovetender is a master at camouflage."},
+        ]
+	},
+	
+	//The Titans
+	{
+		"name": "Jatte",
+		"uniqueTo": "The Titans",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"requiredResource": "Iron",
+		"upgradesTo": "Longswordsman",
+		"promotions": ["Blitz"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "A giant so big that you can only see their legs. Or at least what is told across the lands."},
+        ]
+	},
+	
+	//The Kobolds
+	{
+		"name": "Kobold Taskmaster",
+		"uniqueTo": "The Kobolds",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"requiredResource": "Iron",
+		"upgradesTo": "Longswordsman",
+		"uniques": ["[This Unit] gains the [Forced March (Off)] promotion <hidden from users>"],
+		"promotions": ["Forced March", "Drill I"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "A taskmaster on a Mine, their ruthless attitude towards the worker has earned them a notorius reputation."},
+        ]
+	},
+	
+	//Fanrong Republic
+	{
+		"name": "Junk Ship",
+		"uniqueTo": "Fanrong Republic",
+		"replaces": "Caravel",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+		"promotions": ["Boarding Party I", "Supply"],
+		"civilopediaText": [
+			{"text": "A type of Chinese sailing ship with fully battened sails. Famous for their easy to produce frame."},
+        ]
+	},
+	
+	//The Wizard Council
+	{
+		"name": "Sorcerer",
+		"uniqueTo": "The Wizard Council",
+		"replaces": "Crossbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 19,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"promotions": ["Mana Shield", "Dome of Protection"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "A master of the arcane, Sorcerer uses protective spell to strengthen nearby allies and themselves."},
+        ]
+	},
+	
+	//Troll Tribes
+	{
+		"name": "Troll Headhunter",
+		"uniqueTo": "Troll Tribes",
+		"replaces": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["Hunter's Mark"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Elite squad of the Troll, infamous for their maniacal interests in eating human's head. They has a 50% headshot rate."},
+        ]
+	},
+	
+	
+	//Scazari Hive
+	{
+		"name": "Motaari",
+		"replaces": "Pikeman",
+		"uniqueTo": "Scazari Hive",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 18,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Lancer",
+		"promotions": ["Armored Exoskeleton"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Particularly strong Mantis are assigned to be the guard for the Queen. A replaceable component for the Hive."},
+        ]
+	},
+	
+	//Tauren Clan
+	{
+		"name": "Tauren Totemwielder",
+		"uniqueTo": "Tauren Clan",
+		"replaces": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 22,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"requiredResource": "Iron",
+		"promotions": ["Healer I", "Enchant Totem"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Wield Totem as its weapon, this Tauren can both hurt enemies and heal allies with their Totem prayer."},
+        ]
+	},
+	
+	//Nerubian Kingdom
+	{
+		"name": "Nerubian Weaver",
+		"unitType": "Archery",
+		"uniqueTo": "Nerubian Kingdom",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 7,
+		"cost": 50,
+		"requiredTech": "Archery",
+		"promotions": ["Accuracy I","Shukuchi"],
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "Elite unit of the Nerubian Kingdom, the Weaver is a web-spewing giant arachnid that easily disarm its foes."},
+        ]
+	},
+	
+	//The Walrus People
+	{
+		"name": "Tuskarr",
+		"replaces": "Spearman",
+		"uniqueTo": "The Walrus People",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 13,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["Frostbrand"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Hunter of the Walrus People, a master of the harpoon, they hunt beast effectively. And hunt their enemies while at it."},
+        ]
+	},
+	
+	//Lyrian Kingdom
+	{
+		"name": "Paladin",
+		"uniqueTo": "Lyrian Kingdom",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+		"promotions": ["Healer I", "Divine Smite"],
+		"civilopediaText": [
+			{"text": "Protector of the weak, ally of justice, just to name a few of their name, Paladin is a knight of renowned chivalry and heroism."},
+        ]
+	},
+	
+	//Holy Lunar Theocracy
+	{
+		"name": "Arbiter",
+		"uniqueTo": "Holy Lunar Theocracy",
+		"replaces": "Pikeman"
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 17,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["Elusive", "Conqueror of Realm", "Divine Watch"],
+		"upgradesTo": "Lancer",
+		"attackSound": "metalhit"
+		"civilopediaText": [
+			{"text": "The elite inquisitor group of the Holy Lunar Theocracy. Will crack down foes and heretics alike."},
+        ]
+	},
+	
+	//Magnar Empire
+	{
+		"name": "Wrecker Maceman",
+		"uniqueTo": "Magnar Empire",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"uniques": ["[This Unit] gains [15] XP"],
+		"promotions": ["Besiege", "Bonebreaker"],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+		"civilopediaText": [
+			{"text": "They swing mace harder than a rock swung by catapult. Yes, it's an exaggeration, but they could certainly level a building with ease."},
+        ]
+	},
+	
+	//Lithoid Combine
+	{
+		"name": "Rockspewer",
+		"uniqueTo": "Lithoid Combine",
+		"replaces": "Trebuchet",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 15,
+		"cost": 120,
+		"requiredTech": "Physics",
+		"upgradesTo": "Cannon",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","[-1] Sight","Never appears as a Barbarian unit"],
+		"promotions": ["Reckless Spewing"],
+		"attackSound": "throw",
+		"civilopediaText": [
+			{"text": "A Rockspewer can spew rock at incredible speed, making them particularly good at razing walls and castles alike to the ground."},
+        ]
+	},
+
+	//Basalt Remainers
+	{
+		"name": "Basalt Construct",
+		"unitType": "Sword",
+		"uniqueTo": "Basalt Remainers",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Masonry",
+		"upgradesTo": "Longswordsman",
+		"hurryCostModifier": 20,
+		"promotions": ["Morale","Protector of Realm"],
+		"uniques": ["Comment [Unlocked at [Masonry] vs [Iron Working]]","[-10]% Strength <when fighting in [Foreign Land] tiles>","Invisible to others <when above [99] HP> <within [1] tiles of a [Mountain]>", "Invisibility", "Construct"],
+		"attackSound": "throw",
+		"civilopediaText": [
+			{"text": "The largest creature that emerged from the ashes, but not really the smartest. It is camouflaged in Mountainous Hills and Volcanic Ash"},
+        ]
+	},
+
+		//The Chroniclers
+	{
+		"name": "Sentinel",
+		"uniqueTo": "The Chroniclers",
+		"replaces": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 26,
+		"cost": 150,
+		"uniques": ["Construct"],
+		"promotions": ["[Sentinel] ability", "Sentry"],
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"attackSound": "shot",
+		"civilopediaText": [
+			{"text": "A guardian of the Chronicler's realm. Safeguarding the secret libraries of the world."},
+        ]
+	},
+	
+	//Salamander Empire
+	{
+		"name": "Scorcher",
+		"uniqueTo": "Salamander Empire",
+		"replaces": "Crossbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"promotions": ["[Scorcher] ability", "Scorching Blow"],
+		"attackSound": "arrow"
+	},
+	
+	
+	//The Eternals
+	{
+		"name": "Summoned Undead",
+		"replaces": "Warrior",
+		"uniqueTo": "The Eternals",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 30,
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"promotions": ["Ignore terrain cost", "Undead"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "Undead fighter has no fatigue thus can march more efficiently than regular army."}
+		]
+	},
+	
+	//Precursor
+	{
+		"name": "Seer",
+		"uniqueTo": "Precursor",
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects", "Never appears as a Barbarian unit",
+					],
+		"promotions": ["Ignore terrain cost", "Detect Ruins"],
+		"attackSound": "nonmetalhit"
+	},
+	
+	//Celestial Beings
+	{
+		"name": "Archon",
+		"uniqueTo": "Celestial Beings",
+		"replaces": "Crossbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 18,
+		"cost": 140,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"uniques": ["Construct"],
+		"promotions": ["Volatile Core"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "A construct made from metal using a highly reactive crystal for its core. Fused with the essence of the angels this construct is particularly dangerous for its foes."}
+		]
+	},
+	
+	//Hellbourne
+	{
+		"name": "Bloodfiend",
+		"uniqueTo": "Hellbourne",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"promotions": ["Bloodbath"],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{"text": "Some demons can sap their fallen enemy's blood to nourish themselves."},
+        ]
+	},
+
+	//Gnoll Warband
+	{
+		"name": "Gnoll Basher",
+		"uniqueTo": "Gnoll Warband",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"promotions": ["Quick Study", "Bonebreaker"],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "These ruthless Gnolls are feared on the battlefield, their innate talent of warfare and their ability to swing gigantic hammer with ease are forces to be reckoned with."},
+        ]
+	},
+	
+	//Troglodyte
+	{
+		"name": "Juggernaut",
+		"uniqueTo": "Troglodyte",
+		"replaces": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 22,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"requiredResource": "Iron",
+		"uniques": ["Comment [Consumes 2 [Iron] vs 1 [Iron]]", "Consumes [1] [Iron] <hidden from users>"],
+		"promotions": ["Retribution", "Heavily Armored", "Great Generals I"],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "The Juggernauts are equipped with the heaviest of armors, able to sustain a lot of punishment. But their armor is harder to forge than normal armor."},
+        ]
+	},
+	
+	//Leonin Kingdom
+	{
+		"name": "Vanguard",
+		"uniqueTo": "Leonin Kingdom",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 22,
+		"cost": 140,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Consumes [1] [Iron]",
+					"Can move after attacking", "Never appears as a Barbarian unit"],
+		"promotions": ["Sturdy", "Overwhelming Attack"],
+		"attackSound": "horse",
+		"civilopediaText": [
+			{"text": "The heaviest of cavalry unit, prioritizing armor over mobility, they are a terrifying presence on the battlefield, often Stunning their enemies."},
+        ]
+	},
+	
+	//Spirit Pact
+	{
+		"name": "Possessed Human",
+		"replaces": "Warrior",
+		"uniqueTo": "Spirit Pact",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Swordsman] through ruins-like effects"],
+		"promotions": ["Inner Flame"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "A human being filled with several evil spirits, making them go insane"}
+		]
+	},
+	
+	//The Amazons
+	{
+		"name": "Amazoness Chainmaster",
+		"uniqueTo": "The Amazons",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 60,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"promotions": ["Disarming Strike"],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Many of the Amazoness prefer to fight using chain weapon. They are trained to quickly disarm enemies with their chain."},
+        ]
+	},
+	
+	//Undines
+	{
+		"name": "Hydromancer",
+		"uniqueTo": "Undines",
+		"replaces": "Composite Bowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 12,
+		"cost": 75,
+		"requiredTech": "Construction",
+	//	"uniques": ["Research Trapping vs Construction"],
+		"promotions": ["[Hydromancer] ability", "Regeneration"],
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "A mage capable of utilizing water spell at great efficient and power."},
+        ]
+	},
+	
+	//Enkantos
+	{
+		"name": "Illusionist",
+		"uniqueTo": "Enkantos",
+		"replaces": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"promotions": ["Mirage"],
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"attackSound": "shot",
+		"civilopediaText": [
+			{"text": "A master of illusions. Their enemies might've seen more than what they supposed to see."},
+        ]
+	},
+	
+	
+	//Phrygian Kingdom
+	{
+		"name": "Paragon",
+		"unitType": "Sword",
+		"uniqueTo": "Phrygian Kingdom",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"requiredResource": "Iron",
+		"promotions": ["Mountainborn", "Gordian Knot"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Elite soldier born and raised in the hilly region of Gordian, they are trained to be Paragon from a very young age."},
+        ]
+	},
+	
+	//Kemetian Dynasty
+	{
+		"name": "Medjay Chariot",
+		"uniqueTo": "Kemetian Dynasty",
+		"replaces": "Chariot Archer",
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Kheru Hebet"],
+		"attackSound": "arrow",
+		"civilopediaText": [
+			{"text": "The reliable desert scouts and warrior of Kemetian Dynasty. They have given the authority to punish their enemy with divine judgement."},
+        ]
+	},
+	
+	//Einherjar Legion
+	{
+		"name": "Skjaldborgsdrengr",
+		"uniqueTo": "Einherjar Legion",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"requiredResource": "Iron",
+		"promotions": ["Unstoppable", "Shield Wall"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{"text": "Discplined soldiers of the Legion may use the Shield Wall tactics, performing a steady and coordinated push of several company."},
+        ]
+	},	
+	{
+		"name": "Longboat",
+		"uniqueTo": "Einherjar Legion",
+		"replaces": "Galleass",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 20,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"upgradesTo": "Privateer",
+		"uniques": ["Comment [Upgrades to [Privateer] vs [Frigate]]",],
+		"promotions": ["Landing Party", "Mobility I", "Amphibious Raider"],
+		"attackSound": "arrow"
+	},
+	
+	
+	//Teutonica Imperium
+	{
+		"name": "Shock Trooper",
+		"uniqueTo": "Teutonica Imperium",
+		"replaces": "Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 70,
+		"cost": 325,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"promotions": ["Armor Hunter", "Shocknade"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "These are the backbone of Teutonica Imperium army, specialized in anti-armor combat. They are equipped with special grenades that would disable electronics, making any unit with electricity useless for a while."}
+		]
+	},
+	
+	{
+		"name": "Magitek Landship",
+		"uniqueTo": "Teutonica Imperium",
+		"replaces": "Landship",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 60,
+		"cost": 350,
+		"requiredTech": "Railroads",
+		"requiredResource": "Oil",
+		"upgradesTo": "Tank",
+		"uniques": ["Comment [Unlocked at [Railroads] vs [Combustion]]",
+					"Comment [May be built with 2 [Coal] instead of 1 [Oil] in cities with a [Factory]]",
+					"Can move after attacking", "Never appears as a Barbarian unit",
+					],
+		"promotions": ["Force Field"],
+		"attackSound": "tankshot",
+        "civilopediaText": [
+			{"text": "The scientists of Imperium have managed, using unparalleled knowledge of magic and scientific fields, to create the first of the Landship. These unit are a moving fortress, able to withstand most punishments from their foe."}
+		]
+	},
+	{
+		"name": "Magitek Landship (Coal)",
+		"uniqueTo": "Teutonica Imperium",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 60,
+		"cost": 350,
+		"requiredTech": "Railroads",
+		"requiredResource": "Coal",
+		"upgradesTo": "Tank",
+		"uniques": ["Consumes [1] [Coal]", "Only available <in cities with a [Factory]>",
+					"Can move after attacking", "Never appears as a Barbarian unit",
+					"Will not be displayed in Civilopedia",
+					],
+		"promotions": ["Magitek", "Force Field"],
+		"attackSound": "tankshot",
+        "civilopediaText": [
+			{"text": "The scientists of Imperium have managed, using unparalleled knowledge of magic and scientific fields, to create the first of the Landship. These unit are a moving fortress, able to withstand most punishments from their foe."}
+		]
+	},
+	
+	{
+		"name": "Night Huntress",
+		"uniqueTo": "Night Elven Enclave",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 18,
+		"range": 1,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"promotions": ["Sentry", "Ambusher"],
+		"attackSound": "arrow",
+        "civilopediaText": [
+			{"text": "The Night Huntress rode their Panther, ready to ambush any fools who dares enter their sacred forest uninvited!"}
+		]
+	},
+	
+	//Aellenari Empire
+	{
+		"name": "Oathbound",
+		"uniqueTo": "Aellenari Empire",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"promotions": ["Restless", "Undead"],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+        "civilopediaText": [
+			{"text": "The loyal followers of Keish Lightbringer will rise once more to fulfill their duty. These men willingly entered a magical Oath, that binds them to their Queen. Ready to answers Her call once more."}
+		]
+	},	
+	{
+		"name": "Oathbound (Free)",				//Need the Free version to prevent -10 Counter when building normal Oathbound normally
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia", "Never appears as a Barbarian unit"],
+		"promotions": ["Restless", "Undead"],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit",
+        "civilopediaText": [
+			{"text": "The loyal followers of Keish Lightbringer will rise once more to fulfill their duty. These men willingly entered a magical Oath, that binds them to their Queen. Ready to answers Her call once more."}
+		]
+	},	
+	
+	{
+		"name": "Undead Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"upgradesTo": "Swordsman",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia",
+					"May upgrade to [Spearman] through ruins-like effects",
+					],
+		"promotions": ["Undead"],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Undead Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"],
+		"promotions": ["Undead"],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Undead Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"],
+		"promotions": ["Undead"],
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Undead Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"],
+		"promotions": ["Undead"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Undead Rifleman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Great War Infantry",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"],
+		"promotions": ["Undead"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Undead Great War Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"],
+		"promotions": ["Undead"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Undead Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"],
+		"promotions": ["Undead"],
+		"attackSound": "shot"
+	},
+	
+	//Elmar Kingdom
+	{
+		"name": "Deer-Horned Legionary",
+		"uniqueTo": "Elmar Kingdom",
+		"replaces": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 25,
+		"cost": 200,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"promotions": ["Arcane Ward", "Horns of Humility"],
+		"attackSound": "shot",
+        "civilopediaText": [
+			{"text": "They arose from a group of magicians who worshipped the Divine Deer, forming an order of knights - the Horns of Humility. Initially, they were engaged in punishing magicians who harmed those who couldn't control magic, after which Queen Silyria recruited them into her army. The order became a full-fledged part of Elmar's army, guiding those with aptitude for magic into their ranks to save innocent people."}
+		]
+	},
+	{
+		"name": "Moving Castle"
+		"uniqueTo": "Elmar Kingdom",
+		"replaces": "Frigate",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 260,
+		"requiredResource": "Iron",
+		"requiredTech": "Navigation",
+		"upgradesTo": "Battleship",
+		"promotions": ["Cannonade", "Moving Bastion"],
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley",
+        "civilopediaText": [
+			{"text": "A sight to behold, this Fortress of stones is set up to sail the seas. This engineering miracle is by no mean without its demerit. After all, how do you expect literal stones on a ship to fare?"}
+		]
+	},
+	
+]

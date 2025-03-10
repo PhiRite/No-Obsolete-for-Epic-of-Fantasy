@@ -1327,24 +1327,6 @@
 			{"text": "They arose from a group of magicians who worshipped the Divine Deer, forming an order of knights - the Horns of Humility. Initially, they were engaged in punishing magicians who harmed those who couldn't control magic, after which Queen Silyria recruited them into her army. The order became a full-fledged part of Elmar's army, guiding those with aptitude for magic into their ranks to save innocent people."}
 		]
 	},
-	{
-		"name": "Moving Castle"
-		"uniqueTo": "Elmar Kingdom",
-		"replaces": "Frigate",
-		"unitType": "Ranged Water",
-		"movement": 5,
-		"strength": 30,
-		"rangedStrength": 30,
-		"cost": 260,
-		"requiredResource": "Iron",
-		"requiredTech": "Navigation",
-		"upgradesTo": "Battleship",
-		"promotions": ["Cannonade", "Moving Bastion"],
-		"hurryCostModifier": 20,
-		"attackSound": "shipCannonVolley",
-        "civilopediaText": [
-			{"text": "A sight to behold, this Fortress of stones is set up to sail the seas. This engineering miracle is by no mean without its demerit. After all, how do you expect literal stones on a ship to fare?"}
-		]
-	},
+	
 	
 ]
